@@ -2,11 +2,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Elisp package that uses NLP to generate and add tages to PDF file
+# Elisp package that generates and add tags to select PDF files (LLM indepenent)
 
 ## Objective
 
 Automate the generation and addition of tags to PDF files whose names are in a selected region in a buffer inside of Emacs.
+Uses a simple keyword extraction system that you customize to be alignment with the existing tags in a folder.
+Or, you can use a the Natural Language Processing software called spacy via Python.
+The elisp package handles calling Python.
+You do not have to leave Emacs to add the tags.
+This package can save many hours of tedious labor.
 
 ## Main Functions:
 
@@ -55,9 +60,9 @@ M-x mooerslab-remove-pdf-tags
 
 ## Update history
 
-|Version      | Changes                                                                                                                                                                         | Date                 |
-|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
-| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                        | 11/16/2025  |
+|Version      | Changes                                                                                                               | Date                 |
+|:-----------|:-----------------------------------------------------------------------------------------------------------------------|:---------------------|
+| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                           | 11/16/2025           |
 
 ## Sources of funding
 
