@@ -6,7 +6,7 @@
 
 ## Objective
 
-Automate the generation and addition of tags to PDF files in a selected region in a buffer inside of Emacs.
+Automate the generation and addition of tags to PDF files whose names are in a selected region in a buffer inside of Emacs.
 
 ## Main Functions:
 
