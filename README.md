@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Elisp package that generates and add tags to select PDF files (LLM indepenent)
+# Elisp package that generates and add tags to select PDF files of books (LLM indepenent)
 
 ## Objective
 
